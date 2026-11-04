@@ -1,0 +1,9 @@
+name: toondio_voice_engine
+description: Toondio voice engine. Kokoro text to speech as a separate program (GPL-3.0-or-later).
+version: 1.0.0
+publish_to: none
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+dependencies:
+  sherpa_onnx:
+    path: third_party/sherpa_onnx_dart

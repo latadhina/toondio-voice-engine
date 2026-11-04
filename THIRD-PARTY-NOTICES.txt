@@ -1,0 +1,59 @@
+Toondio voice engine: third-party notices
+
+sherpa-onnx 1.13.8 (sherpa-onnx-c-api.dll and the Dart bindings) · Apache-2.0
+https://github.com/k2-fsa/sherpa-onnx · full text: LICENSE-sherpa-onnx.txt
+
+eSpeak NG (built into sherpa-onnx-c-api.dll) · GPL-3.0-or-later
+https://github.com/espeak-ng/espeak-ng · full text: LICENSE (GPL-3.0)
+Source used: github.com/csukuangfj/espeak-ng commit ed530aa113046142eb5115cf2fc9157854d0ffe1 (attached to each engine release)
+The exact source sherpa-onnx 1.13.8 builds is named in its cmake/espeak-ng.cmake.
+
+ONNX Runtime (onnxruntime.dll, onnxruntime_providers_shared.dll) · MIT
+https://github.com/microsoft/onnxruntime
+
+MIT License
+
+Copyright (c) Microsoft Corporation
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+piper-phonemize (built into sherpa-onnx-c-api.dll) · MIT
+https://github.com/csukuangfj/piper-phonemize (commit f3ff95afc03640bc1399e113e83361192a2fafb4)
+
+MIT License
+
+Copyright (c) 2023 Michael Hansen
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

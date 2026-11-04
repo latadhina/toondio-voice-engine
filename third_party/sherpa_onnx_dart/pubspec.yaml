@@ -1,0 +1,8 @@
+name: sherpa_onnx
+description: Vendored Dart FFI bindings of sherpa-onnx 1.13.8 (text to speech only is used). See CHANGES.md.
+version: 1.13.8
+publish_to: none
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+dependencies:
+  ffi: ^2.1.0
